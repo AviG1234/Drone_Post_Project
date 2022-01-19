@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sqlbuilder-3.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/sqlbuilder-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
