@@ -1,10 +1,17 @@
 ## Overview
-Drone Post is a corce project simulating a system of receiving and managing orders from users and delivering packages by drones. the project is an interaction between two programs a user interface code for interacting with the Drone Post system (DronePostUI Folder) and a server-side code for handling order management and drone deliveries (DronePost Folder).
+Drone Post is a comprehensive project that simulates a system for receiving, managing orders from users, and executing deliveries using drones. The project encompasses an interaction between two programs: the user interface code (DronePostUI Folder) facilitating user interactions with the Drone Post system, and the server-side code (DronePost Folder) responsible for order management and drone deliveries.
+System Parameters and Follow-Up
 
-## System parameters and follow up
-- Simulated delivery times are generated at a rate of 1000 to 1, 
-- The order status is logged in the DronePost/serverLog.txt file, providing a record of the system's activities.
-- If no drones are saved in the SQL server, the system will automatically load 20 drones to ensure smooth operations.
+The Drone Post system operates based on the following parameters:
+
+# Simulated Delivery Times:
+- Delivery times are simulated at a rate of 1000 to 1, ensuring a dynamic and efficient testing environment.
+
+# Order Status Logging:
+- The system maintains a detailed log of order statuses, accessible in the DronePost/serverLog.txt file. This log provides a comprehensive record of the system's activities.
+
+# Automatic Drone Loading:
+- In cases where no drones are saved in the SQL server, the system takes proactive measures by automatically loading 20 drones. This ensures the system's smooth operations and responsiveness.
 
 ## SQL Server
-- SQL script for setting up the necessary tables in the Microsoft SQL Server. This script is located in the DronePost/DataBaseScript folder.
+- The SQL Server component is crucial for data storage and retrieval within the Drone Post system. The necessary tables are set up using the provided SQL script located in the DronePost/DataBaseScript folder. Executing this script in Microsoft SQL Server establishes the foundation for seamless operation and efficient data management.
